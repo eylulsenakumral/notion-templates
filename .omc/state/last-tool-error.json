@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"vercel --prod --yes 2>&1\",\"timeout\":180000,\"description\":\"Deploy landing page to Vercel\"}",
-  "error": "Exit code 1\n<claude-code-hint v=\"1\" type=\"plugin\" value=\"vercel@claude-plugins-official\" />\nVercel CLI 54.7.1 (Node.js 22.22.3)\n\n  Set up \"~/projects/Auto-Company/public/notion-templates\"\nLoading teams…\nError: The specified token is not valid. Use `vercel login` to generate a new token.",
-  "timestamp": "2026-06-03T07:28:05.159Z",
+  "tool_input_preview": "{\"command\":\"gh api repos/eylulsenakumral/notion-templates/pages 2>&1\",\"description\":\"Check GitHub Pages status\"}",
+  "error": "Exit code 1\n{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site\",\"status\":\"404\"}gh: Not Found (HTTP 404)",
+  "timestamp": "2026-06-03T07:29:15.142Z",
   "retry_count": 1
 }
