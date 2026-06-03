@@ -1,0 +1,19 @@
+
+> auto-company-ops-kit-landing@1.0.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.5.247:3000
+✓ Ready in 404ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/tolgabrk/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/tolgabrk/projects/Auto-Company/public/notion-templates/package-lock.json
+   * /home/tolgabrk/projects/Auto-Company/package-lock.json
+
+
+ GET / 200 in 1737ms (next.js: 1530ms, application-code: 207ms)
+ GET / 200 in 67ms (next.js: 6ms, application-code: 62ms)

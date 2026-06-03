@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"vercel --prod --yes 2>&1\",\"timeout\":180000,\"description\":\"Deploy landing page to Vercel\"}",
+  "error": "Exit code 1\n<claude-code-hint v=\"1\" type=\"plugin\" value=\"vercel@claude-plugins-official\" />\nVercel CLI 54.7.1 (Node.js 22.22.3)\n\n  Set up \"~/projects/Auto-Company/public/notion-templates\"\nLoading teams…\nError: The specified token is not valid. Use `vercel login` to generate a new token.",
+  "timestamp": "2026-06-03T07:28:05.159Z",
+  "retry_count": 1
+}
